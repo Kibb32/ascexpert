@@ -47,6 +47,10 @@ ul {
   margin-bottom: 19px;
 }
 
+.label--mb21 {
+  margin-bottom: 21px;
+}
+
 .label--mb22 {
   margin-bottom: 22px;
 }
@@ -149,7 +153,7 @@ ul {
   letter-spacing: 2.32px;
   font-size: 16px;
   text-transform: uppercase;
-  margin-bottom: 21px;
+  /* margin-bottom: 21px; */
 }
 
 .label--yellow {
@@ -471,6 +475,7 @@ input {
   border-radius: 54px;
   border: 1px solid #c1c1c1;
   background: #fff;
+  width: 318px; 
 }
 
 .contact__form-dib {
@@ -507,5 +512,5 @@ textarea {
 }
 
 .contact__content {
-    height: 534px;
+    border: 1px solid red;
 }
